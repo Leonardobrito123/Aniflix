@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIFLIX - Cadastre-se</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><h2 class="logo">ANIFLIX</h2></a>
+            <nav>
+                <a href="index.html"><i class="fa-solid fa-video"></i>Animes</a>
+                <a href="index.html"><i class="fa-solid fa-film"></i>Filmes</a>
+                <label for="modal" class="abrirModal"><i class="fa-solid fa-circle-user"></i>Entrar</label>
+                <input type="checkbox" id="modal" class="checkModal">
+                <div class="modalLogin">
+                    <div class="containerModal">
+                        <div>
+                            <label for="modal" class="fecharModal">X</label>
+                            <h3>Entre com sua conta</h3>
+                        </div>
+                        <form class="form-login">
+                            <fieldset>
+                                <h2>Entrar</h2>
+                                <div>
+                                    <label for="txUsu">Usuário:</label>
+                                    <input type="text" name="txUsu" placeholder="Digite seu Usuário" required>
+                                </div>
+                                <div>
+                                    <label for="txSenha">Senha:</label>
+                                    <input type="password" name="txSenha" placeholder="Digite sua senha" required>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="checkLembrar">
+                                    <label for="checkLembrar" id="checks">Lembrar de mim</label>
+                                    <a href="#">Esqueceu a senha?</a>
+                                </div>
+                                <div>
+                                    <p>Não possui uma conta?<a href="cadastro.html">Cadastre-se</a></p>
+                                </div>
+                                <p>Ou entre com:</p>
+                                <div>
+                                    <i class="fa-brands fa-google"></i>
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                                <button type="submit" class="btnLogin" value="Entrar">Entrar</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="containerCad">
+                <form class="form-cadastro">
+                    <h1>Cadastre-se</h1>
+                    <div>
+                        <label for="txEmail">Email:</label>
+                        <input type="email" name="txEmail" placeholder="Digite seu email" required>
+                    </div>
+                    <div>
+                        <label for="txNome">Usuário:</label>
+                        <input type="text" name="txNome" placeholder="Digite seu usuário" required>
+                    </div>
+                    <div>
+                        <label for="txSenha">Senha:</label>
+                        <input type="password" name="txSenha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div>
+                        <label for="txSenha2">Confirmar senha:</label>
+                        <input type="password" name="txSenha2" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div>
+                        <p>Já possui uma conta?<label for="modal" class="abrirModal">Entrar</label></p>
+                    </div>
+                    <p>Ou entre com:</p>
+                    <div>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <button type="submit" class="btnCadastrar" value="Cadastrar">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+        <!-- footer -->
+        <footer>
+            <div class="container rod">
+                <p>Desenvolvido por Leonardo Brito</p>
+                <div>
+                    <ul>
+                        <h4>Redes sociais</h4>
+                        <li><i class="fa-brands fa-github"></i><a href="">Github</a></li>
+                        <li><i class="fa-brands fa-linkedin"></i><a href="">LinkedIn</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a href="">Gmail</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+</body>
+</html>
+
+<script src="https://kit.fontawesome.com/b8710b5ea0.js" crossorigin="anonymous"></script>

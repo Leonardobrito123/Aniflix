@@ -1,0 +1,44 @@
+/* tamanho de tela até 700px irá ocorrer isso */
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        margin-top: 10px;
+        width: 300px;
+        
+    }
+
+    footer .rod{
+        margin-top: 20%;
+    }
+
+    .anime-principal{
+        max-width: 700px;
+        max-height: 550px;
+        
+        background-position: center;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* tamanho de tela no minimo 1000px */
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+
+    .modalLogin .fecharModal{
+        position: absolute;
+        top: 20%;
+        right: 26.5%;
+    }
+
+    .modalLogin .containerModal{
+        width: 50%;
+        height: 65%;
+    }
+}
